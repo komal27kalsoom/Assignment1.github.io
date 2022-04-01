@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(253, 253, 253);
+    position: fixed;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul a{
+    text-decoration: none;
+    margin-left:15px;
+    color: black;
+    padding:0px 5px 0px 10px;
+  
+}
+a:hover{
+    background: skyblue;
+    color:azure;
+    height: 60px;
+    padding:23px 5px 23px 10px;
+   
+}
+.btn{
+background-color: orange;
+   color:white;
+   border: none;
+   border-radius: 2px;
+   margin-left:10px;
+   width: 60px;
+   padding: 3px;
+}
+.bg{
+    background-image: url(image/building.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+}
+.bt{
+width: 200px;
+height: 40px;
+background-color: rgb(255, 94, 0);
+border:none;
+border-radius:3px;
+margin-top: 30px;
+color: azure;
+font-size: 20px;
+padding: 10px;
+}
+.btnn{
+width: 170px;
+height: 40px;
+background-color: rgb(0, 153, 255);
+border:none;
+border-radius:3px;
+margin-top: 30px;
+color: azure;
+position: relative;
+top:-60px;
+left:590px;
+font-size: 17px;
+}
+.p1{
+    margin: 0px 300px 0px 300px;
+    text-align: center;
+    color:beige;
+   text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icons{
+    display: flex;
+    margin: 60px 250px 40px 250px;
+    text-align:right;
+}
+.icons .icon1{
+    margin-left: 30px;
+}
+.icon1 img{
+    width: 100px;
+    height: 100px;
+}
+/* ,,,,,,,,,,media query............. */
+@media screen and (max-width:768px){
+    .logo img{
+      width:12px;}
+}
+@media screen and (max-width:768px){
+    ul a{
+     margin:0px;
+}
+}
+@media screen and (max-width:768px){
+    .logo{
+      font-size:15px;
+      font-weight: bold;
+    }
+}
+@media screen and (max-width:768px){
+    .icons{
+     margin:0;
+    }
+}
+@media screen and (max-width:992px){
+    .icons{
+     display:block;
+     text-align: center; 
+     margin: 50px 0px 50px 0px;
+    }
+}
+@media screen and (max-width:992px){
+    .icon1{
+    text-align: center; 
+     margin:40px 0 40px 0;
+     padding: 20px 60px 20px 20px;
+}
+}
+/* .........Second main Section.......... */
+.second-main{
+
+    background-color: rgb(8, 44, 83);
+    padding-bottom: 40px;
+}
+.heading{
+    color: tomato;
+}
+.div101{
+    padding: 40px 0;
+    display: flex;
+    justify-content:space-around;
+}
+.div101 button{
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(15, 141, 190);
+    color: antiquewhite;
+    padding: 5px;
+}
+.para{
+    color: aliceblue;
+}
+.div102{
+    display: flex;
+    margin: 0 50px;
+   
+}
+.img102 img{
+    width:100%;
+    height: 200px;
+}
+.img102{
+    margin: 20px;
+}
+/* ...........What we Offer Section........... */
+.sec-1 .heading1{
+    color: rgb(11, 137, 168);
+}
+.sec-1{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin:60px 100px; 
+   text-align: center;
+}
+/* ..........section 2....... */
+
+.sec-2{
+display: flex;
+text-align:justify;
+}
+.sec-202{
+    margin: 10px 40px;
+   
+}
+.sec-202 h4{
+    color: rgb(13, 145, 197);
+}
+.btn2{
+    margin-top: 20px;
+    border-radius:3px;
+    border: none;
+    background-color:  rgb(13, 145, 197);
+    color: aliceblue;
+    padding: 6px 10px;
+    position: relative;
+    left: 180px;
+}
+.para2{
+    font-size: 30px;
+}
+/* .........footer part....... */
+
+.footer-part h3{
+color: tomato;
+}
+.footer-part{
+    display: flex;
+    background-color: rgb(8, 44, 83);
+    color: aliceblue;
+    text-align: left;
+    padding: 40px;
+}
+.footer-part a{
+    color: rgb(32, 128, 236);
+    text-decoration: none;
+}
+/* foter 3rd column */
+.f3-col3{
+    display: flex;
+}
+.f3-col3 .white{
+    width: 50%;
+    height: 60px;
+    background-color: aliceblue;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.f1 hr{margin: 5px 0px;
+
+}
+.f2 hr{margin: 5px 0px;
+
+}
+.f3 hr{margin: 5px 0px;
+
+}
+.f2 input{
+    margin-top: 10px;
+    padding: 10px;
+    width: 90%;
+}
+.f1,.f2,.f3,.f4{
+    margin: 20px;
+    width:50%;
+}
+.f4>div{
+    margin-top: 30px;
+    font-size: 20px;
+}
